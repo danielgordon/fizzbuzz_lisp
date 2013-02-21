@@ -1,8 +1,12 @@
 (defun fizz (n)
-  (if (= 0 (mod n 3)) "fizz" ""))
+  (if (= 0 (mod n 3)) 
+      "fizz"
+      ""))
 
 (defun buzz (n)
-  (if (= 0 (mod n 5)) "buzz" ""))
+  (if (= 0 (mod n 5)) 
+      "buzz"
+      ""))
 
 (defun fizzbuzz (n)
   (let 
